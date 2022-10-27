@@ -42,8 +42,9 @@ To install the LNN:
       brew install graphviz
       ```
       ```bash
+      
       # Windows
-      sudo apt-get install python3-dev graphviz libgraphviz-dev pkg-config
+      conda install --channel conda-forge pygraphviz
       ```
       </div></details>
 
@@ -57,8 +58,12 @@ To install the LNN:
       brew install gmp
       env "CFLAGS=-I/usr/local/include -L/usr/local/lib" pip install pycddlib
       ```
+      ``` bash
+      # Windows Powershell / Anaconda 
+      conda install --channel conda-forge pygraphviz
+      ```
       ```bash
-      # Windows
+      # Ubuntu and Debian
       sudo apt-get install python3-dev graphviz libgraphviz-dev pkg-config
       sudo -H apt-get install libgmp-dev python3-dev
       ```
